@@ -1,7 +1,7 @@
 
 
 
-# Install autodl-backup on your own server
+# Install autodl-backup
 This project is based on UWExploration: https://github.com/ignaciotb/UWExploration
 ## Environment Requirements
 
