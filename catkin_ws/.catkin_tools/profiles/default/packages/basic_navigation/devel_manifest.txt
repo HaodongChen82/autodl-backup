@@ -1,0 +1,4 @@
+UWExploration/planning/basic_navigation
+/root/catkin_ws/devel/.private/basic_navigation/lib/pkgconfig/basic_navigation.pc /root/catkin_ws/devel/lib/pkgconfig/basic_navigation.pc
+/root/catkin_ws/devel/.private/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig-version.cmake /root/catkin_ws/devel/share/basic_navigation/cmake/basic_navigationConfig-version.cmake
+/root/catkin_ws/devel/.private/basic_navigation/share/basic_navigation/cmake/basic_navigationConfig.cmake /root/catkin_ws/devel/share/basic_navigation/cmake/basic_navigationConfig.cmake

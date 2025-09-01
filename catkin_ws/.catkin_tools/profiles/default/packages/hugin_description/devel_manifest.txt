@@ -1,0 +1,4 @@
+UWExploration/real_auv/hugin_description
+/root/catkin_ws/devel/.private/hugin_description/lib/pkgconfig/hugin_description.pc /root/catkin_ws/devel/lib/pkgconfig/hugin_description.pc
+/root/catkin_ws/devel/.private/hugin_description/share/hugin_description/cmake/hugin_descriptionConfig-version.cmake /root/catkin_ws/devel/share/hugin_description/cmake/hugin_descriptionConfig-version.cmake
+/root/catkin_ws/devel/.private/hugin_description/share/hugin_description/cmake/hugin_descriptionConfig.cmake /root/catkin_ws/devel/share/hugin_description/cmake/hugin_descriptionConfig.cmake

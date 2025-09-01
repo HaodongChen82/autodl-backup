@@ -1,0 +1,5 @@
+[ 18%] Built target cnpy-static
+[ 36%] Built target cnpy
+[ 54%] Built target example1
+[ 63%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/sss_particle_filter/lib/sss_particle_filter/sss_pf_localization_node[0m
+[100%] Built target sss_pf_localization_node

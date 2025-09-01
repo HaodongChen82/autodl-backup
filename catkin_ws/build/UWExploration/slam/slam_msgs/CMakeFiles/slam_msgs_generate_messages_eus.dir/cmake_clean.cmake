@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/manifest.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorAction.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorActionFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorActionGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorActionResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/ManipulatePosteriorResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MbRequest.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MbResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingAction.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingActionFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingActionGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingActionResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/MinibatchTrainingResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorAction.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorActionFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorActionGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorActionResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/PlotPosteriorResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorAction.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorActionFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorActionGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorActionResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorFeedback.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorGoal.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/msg/SamplePosteriorResult.l"
+  "/root/catkin_ws/devel/share/roseus/ros/slam_msgs/srv/Resample.l"
+  "CMakeFiles/slam_msgs_generate_messages_eus"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/slam_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

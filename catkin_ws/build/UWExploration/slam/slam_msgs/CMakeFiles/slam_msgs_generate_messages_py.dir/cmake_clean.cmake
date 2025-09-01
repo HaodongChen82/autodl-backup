@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorAction.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorActionFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorActionGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorActionResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_ManipulatePosteriorResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MbRequest.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MbResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingAction.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingActionFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingActionGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingActionResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_MinibatchTrainingResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorAction.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorActionFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorActionGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorActionResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_PlotPosteriorResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorAction.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorActionFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorActionGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorActionResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorFeedback.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorGoal.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/_SamplePosteriorResult.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/msg/__init__.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/srv/_Resample.py"
+  "/root/catkin_ws/devel/lib/python3/dist-packages/slam_msgs/srv/__init__.py"
+  "CMakeFiles/slam_msgs_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/slam_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

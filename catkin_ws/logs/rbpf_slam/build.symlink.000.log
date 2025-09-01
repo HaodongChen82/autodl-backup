@@ -1,0 +1,5 @@
+Symlinking /root/catkin_ws/devel/lib/librbpf_slam.so
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rbpf_slam.pc
+Symlinking /root/catkin_ws/devel/lib/rbpf_slam/rbpf_par_slam_node
+Symlinking /root/catkin_ws/devel/share/rbpf_slam/cmake/rbpf_slamConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rbpf_slam/cmake/rbpf_slamConfig-version.cmake

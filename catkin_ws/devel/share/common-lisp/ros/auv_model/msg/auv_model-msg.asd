@@ -1,0 +1,41 @@
+
+(cl:in-package :asdf)
+
+(defsystem "auv_model-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :sensor_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "MbesSimAction" :depends-on ("_package_MbesSimAction"))
+    (:file "_package_MbesSimAction" :depends-on ("_package"))
+    (:file "MbesSimActionFeedback" :depends-on ("_package_MbesSimActionFeedback"))
+    (:file "_package_MbesSimActionFeedback" :depends-on ("_package"))
+    (:file "MbesSimActionGoal" :depends-on ("_package_MbesSimActionGoal"))
+    (:file "_package_MbesSimActionGoal" :depends-on ("_package"))
+    (:file "MbesSimActionResult" :depends-on ("_package_MbesSimActionResult"))
+    (:file "_package_MbesSimActionResult" :depends-on ("_package"))
+    (:file "MbesSimFeedback" :depends-on ("_package_MbesSimFeedback"))
+    (:file "_package_MbesSimFeedback" :depends-on ("_package"))
+    (:file "MbesSimGoal" :depends-on ("_package_MbesSimGoal"))
+    (:file "_package_MbesSimGoal" :depends-on ("_package"))
+    (:file "MbesSimResult" :depends-on ("_package_MbesSimResult"))
+    (:file "_package_MbesSimResult" :depends-on ("_package"))
+    (:file "Sidescan" :depends-on ("_package_Sidescan"))
+    (:file "_package_Sidescan" :depends-on ("_package"))
+    (:file "SssSimAction" :depends-on ("_package_SssSimAction"))
+    (:file "_package_SssSimAction" :depends-on ("_package"))
+    (:file "SssSimActionFeedback" :depends-on ("_package_SssSimActionFeedback"))
+    (:file "_package_SssSimActionFeedback" :depends-on ("_package"))
+    (:file "SssSimActionGoal" :depends-on ("_package_SssSimActionGoal"))
+    (:file "_package_SssSimActionGoal" :depends-on ("_package"))
+    (:file "SssSimActionResult" :depends-on ("_package_SssSimActionResult"))
+    (:file "_package_SssSimActionResult" :depends-on ("_package"))
+    (:file "SssSimFeedback" :depends-on ("_package_SssSimFeedback"))
+    (:file "_package_SssSimFeedback" :depends-on ("_package"))
+    (:file "SssSimGoal" :depends-on ("_package_SssSimGoal"))
+    (:file "_package_SssSimGoal" :depends-on ("_package"))
+    (:file "SssSimResult" :depends-on ("_package_SssSimResult"))
+    (:file "_package_SssSimResult" :depends-on ("_package"))
+  ))

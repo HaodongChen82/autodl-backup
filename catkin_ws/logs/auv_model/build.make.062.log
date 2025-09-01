@@ -1,0 +1,627 @@
+/usr/local/bin/cmake -S/root/catkin_ws/src/UWExploration/sim_auv/auv_model -B/root/catkin_ws/build/auv_model --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/bin/cmake -E cmake_progress_start /root/catkin_ws/build/auv_model/CMakeFiles /root/catkin_ws/build/auv_model//CMakeFiles/progress.marks
+/usr/bin/make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimFeedback.dir/depend
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_Sidescan.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_Sidescan.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimAction.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimAction.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionGoal.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionResult.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimFeedback.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionFeedback.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimGoal.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimResult.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimFeedback.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimAction.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimAction.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionGoal.dir/depend
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionResult.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionFeedback.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimAction.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionFeedback.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimResult.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionGoal.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimFeedback.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimGoal.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_Sidescan.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimAction.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimResult.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimGoal.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionResult.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionGoal.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimGoal.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_py.dir/build'.
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionResult.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimResult.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionFeedback.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimFeedback.dir/build
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_py.dir/build'.
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimResult.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionFeedback.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionGoal.dir/build
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/sss_payload.dir/build.make CMakeFiles/sss_payload.dir/depend
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimAction.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimAction.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimGoal.dir/build
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimFeedback.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimFeedback.msg 
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimResult.msg sensor_msgs/PointField:sensor_msgs/PointCloud2:std_msgs/Header
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimActionResult.dir/build
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimActionGoal.msg geometry_msgs/Vector3:geometry_msgs/Quaternion:auv_model/MbesSimGoal:std_msgs/Int32:geometry_msgs/TransformStamped:geometry_msgs/Transform:actionlib_msgs/GoalID:std_msgs/Header
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimActionFeedback.msg auv_model/MbesSimFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimFeedback.msg 
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_MbesSimGoal.dir/build
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimAction.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimAction.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimAction.msg auv_model/MbesSimResult:actionlib_msgs/GoalStatus:sensor_msgs/PointField:geometry_msgs/Vector3:auv_model/MbesSimActionResult:auv_model/MbesSimActionFeedback:geometry_msgs/Quaternion:sensor_msgs/PointCloud2:auv_model/MbesSimActionGoal:auv_model/MbesSimGoal:auv_model/MbesSimFeedback:std_msgs/Int32:geometry_msgs/TransformStamped:geometry_msgs/Transform:actionlib_msgs/GoalID:std_msgs/Header
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimActionResult.msg auv_model/MbesSimResult:sensor_msgs/PointField:std_msgs/Header:sensor_msgs/PointCloud2:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimResult.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_Sidescan.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_Sidescan.dir/build
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionResult.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionResult.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionGoal.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionGoal.dir/build
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimGoal.msg geometry_msgs/Vector3:std_msgs/Int64:geometry_msgs/Quaternion:geometry_msgs/TransformStamped:geometry_msgs/Transform:std_msgs/Header
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimActionGoal.msg geometry_msgs/Vector3:std_msgs/Int64:geometry_msgs/Quaternion:auv_model/SssSimGoal:geometry_msgs/TransformStamped:geometry_msgs/Transform:actionlib_msgs/GoalID:std_msgs/Header
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+[  0%] Built target sensor_msgs_generate_messages_py
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/MbesSimGoal.msg geometry_msgs/Vector3:geometry_msgs/Quaternion:std_msgs/Int32:geometry_msgs/TransformStamped:geometry_msgs/Transform:std_msgs/Header
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_cpp.dir/build.make CMakeFiles/tf_generate_messages_cpp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionFeedback.dir/build.make CMakeFiles/_auv_model_generate_messages_check_deps_SssSimActionFeedback.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimActionResult.msg auv_model/Sidescan:std_msgs/Header:auv_model/SssSimResult:actionlib_msgs/GoalID:actionlib_msgs/GoalStatus
+[  0%] Built target std_msgs_generate_messages_py
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_eus.dir/build.make CMakeFiles/tf_generate_messages_eus.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_lisp.dir/build.make CMakeFiles/tf_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/sss_payload.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_nodejs.dir/build.make CMakeFiles/tf_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_py.dir/build.make CMakeFiles/tf_generate_messages_py.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model/msg/Sidescan.msg std_msgs/Header
+[  0%] Built target geometry_msgs_generate_messages_py
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimResult.msg auv_model/Sidescan:std_msgs/Header
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimAction.msg auv_model/SssSimActionGoal:auv_model/SssSimActionResult:actionlib_msgs/GoalStatus:geometry_msgs/Vector3:std_msgs/Int64:auv_model/SssSimActionFeedback:auv_model/Sidescan:geometry_msgs/Quaternion:auv_model/SssSimGoal:auv_model/SssSimResult:auv_model/SssSimFeedback:geometry_msgs/TransformStamped:geometry_msgs/Transform:actionlib_msgs/GoalID:std_msgs/Header
+[  0%] Built target actionlib_msgs_generate_messages_py
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py auv_model /root/catkin_ws/devel/.private/auv_model/share/auv_model/msg/SssSimActionFeedback.msg auv_model/SssSimFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_eus.dir/build'.
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/depend
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+[  0%] Built target geometry_msgs_generate_messages_eus
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
+/usr/bin/make  -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build'.
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/sss_payload.dir/build.make CMakeFiles/sss_payload.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+[  0%] Built target geometry_msgs_generate_messages_cpp
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target actionlib_msgs_generate_messages_eus
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_nodejs.dir/build.make CMakeFiles/tf_generate_messages_nodejs.dir/build
+[  0%] Built target sensor_msgs_generate_messages_cpp
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_cpp.dir/build.make CMakeFiles/tf_generate_messages_cpp.dir/build
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_lisp.dir/build.make CMakeFiles/tf_generate_messages_lisp.dir/build
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_py.dir/build.make CMakeFiles/tf_generate_messages_py.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/roscpp_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/build
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/build
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target std_msgs_generate_messages_cpp
+/usr/bin/make  -f CMakeFiles/tf_generate_messages_eus.dir/build.make CMakeFiles/tf_generate_messages_eus.dir/build
+[  0%] Built target sensor_msgs_generate_messages_eus
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+[  0%] Built target std_msgs_generate_messages_lisp
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target roscpp_generate_messages_cpp
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target roscpp_generate_messages_nodejs
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+[  0%] Built target geometry_msgs_generate_messages_lisp
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf2_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target std_msgs_generate_messages_nodejs
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build'.
+[  0%] Built target tf_generate_messages_lisp
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/actionlib_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target actionlib_generate_messages_lisp
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/tf2_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/sss_payload.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target sss_payload
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimResult
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimFeedback
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimActionResult
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimFeedback
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimGoal
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimActionFeedback
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_Sidescan
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimActionFeedback
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimActionGoal
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimResult
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimGoal
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimAction
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimAction
+[  2%] Built target _auv_model_generate_messages_check_deps_SssSimActionGoal
+[  2%] Built target _auv_model_generate_messages_check_deps_MbesSimActionResult
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_py.dir/build.make CMakeFiles/auv_model_generate_messages_py.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_cpp.dir/build.make CMakeFiles/auv_model_generate_messages_cpp.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_eus.dir/build.make CMakeFiles/auv_model_generate_messages_eus.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_lisp.dir/build.make CMakeFiles/auv_model_generate_messages_lisp.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_nodejs.dir/build.make CMakeFiles/auv_model_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_eus.dir/build.make CMakeFiles/auv_model_generate_messages_eus.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_cpp.dir/build.make CMakeFiles/auv_model_generate_messages_cpp.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_py.dir/build.make CMakeFiles/auv_model_generate_messages_py.dir/build
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_lisp.dir/build.make CMakeFiles/auv_model_generate_messages_lisp.dir/build
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages_nodejs.dir/build.make CMakeFiles/auv_model_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[ 21%] Built target auv_model_generate_messages_eus
+[ 40%] Built target auv_model_generate_messages_lisp
+[ 79%] Built target auv_model_generate_messages_py
+[ 82%] Built target auv_model_generate_messages_cpp
+[ 94%] Built target auv_model_generate_messages_nodejs
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages.dir/build.make CMakeFiles/auv_model_generate_messages.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_motion_model.dir/build.make CMakeFiles/auv_motion_model.dir/depend
+/usr/bin/make  -f CMakeFiles/auv_payload_cpp.dir/build.make CMakeFiles/auv_payload_cpp.dir/depend
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_model_generate_messages.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_model_generate_messages.dir/build.make CMakeFiles/auv_model_generate_messages.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_model_generate_messages.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_motion_model.dir/DependInfo.cmake "--color="
+[ 94%] Built target auv_model_generate_messages
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+cd /root/catkin_ws/build/auv_model && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/src/UWExploration/sim_auv/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model /root/catkin_ws/build/auv_model/CMakeFiles/auv_payload_cpp.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_motion_model.dir/build.make CMakeFiles/auv_motion_model.dir/build
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/bin/make  -f CMakeFiles/auv_payload_cpp.dir/build.make CMakeFiles/auv_payload_cpp.dir/build
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_payload_cpp.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[ 96%] Built target auv_payload_cpp
+make[2]: Entering directory '/root/catkin_ws/build/auv_model'
+make[2]: Nothing to be done for 'CMakeFiles/auv_motion_model.dir/build'.
+make[2]: Leaving directory '/root/catkin_ws/build/auv_model'
+[100%] Built target auv_motion_model
+make[1]: Leaving directory '/root/catkin_ws/build/auv_model'
+/usr/local/bin/cmake -E cmake_progress_start /root/catkin_ws/build/auv_model/CMakeFiles 0

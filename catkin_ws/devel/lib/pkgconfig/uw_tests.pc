@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: uw_tests
+Description: Description of uw_tests
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

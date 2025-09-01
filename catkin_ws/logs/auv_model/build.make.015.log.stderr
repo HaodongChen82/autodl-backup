@@ -1,0 +1,20 @@
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetSceneBuildQuality'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetSceneFlags'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcNewGeometry'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcIntersect1'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetGeometryMask'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcReleaseScene'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcAttachGeometry'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetNewGeometryBuffer'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcGetDeviceError'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcCommitGeometry'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcCommitScene'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetGeometryTimeStepCount'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcSetGeometryBuildQuality'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcReleaseGeometry'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcNewDevice'
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so: undefined reference to `rtcNewScene'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/auv_payload_cpp.dir/build.make:289: /root/catkin_ws/devel/.private/auv_model/lib/auv_model/auv_payload_cpp] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2435: CMakeFiles/auv_payload_cpp.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/usr/local/bin/cmake -S/root/catkin_ws/src/UWExploration/sim_auv/auv_model -B/root/catkin_ws/build/auv_model --check-build-system CMakeFiles/Makefile.cmake 0

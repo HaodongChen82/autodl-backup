@@ -1,0 +1,6 @@
+UWExploration/slam/rbpf_slam
+/root/catkin_ws/devel/.private/rbpf_slam/lib/librbpf_slam.so /root/catkin_ws/devel/lib/librbpf_slam.so
+/root/catkin_ws/devel/.private/rbpf_slam/lib/pkgconfig/rbpf_slam.pc /root/catkin_ws/devel/lib/pkgconfig/rbpf_slam.pc
+/root/catkin_ws/devel/.private/rbpf_slam/lib/rbpf_slam/rbpf_par_slam_node /root/catkin_ws/devel/lib/rbpf_slam/rbpf_par_slam_node
+/root/catkin_ws/devel/.private/rbpf_slam/share/rbpf_slam/cmake/rbpf_slamConfig-version.cmake /root/catkin_ws/devel/share/rbpf_slam/cmake/rbpf_slamConfig-version.cmake
+/root/catkin_ws/devel/.private/rbpf_slam/share/rbpf_slam/cmake/rbpf_slamConfig.cmake /root/catkin_ws/devel/share/rbpf_slam/cmake/rbpf_slamConfig.cmake

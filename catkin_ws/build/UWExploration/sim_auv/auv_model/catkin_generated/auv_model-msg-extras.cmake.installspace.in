@@ -1,0 +1,2 @@
+set(auv_model_MESSAGE_FILES "msg/Sidescan.msg;msg/MbesSimAction.msg;msg/MbesSimActionGoal.msg;msg/MbesSimActionResult.msg;msg/MbesSimActionFeedback.msg;msg/MbesSimGoal.msg;msg/MbesSimResult.msg;msg/MbesSimFeedback.msg;msg/SssSimAction.msg;msg/SssSimActionGoal.msg;msg/SssSimActionResult.msg;msg/SssSimActionFeedback.msg;msg/SssSimGoal.msg;msg/SssSimResult.msg;msg/SssSimFeedback.msg")
+set(auv_model_SERVICE_FILES "")

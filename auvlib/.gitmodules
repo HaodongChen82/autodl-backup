@@ -1,0 +1,16 @@
+[submodule "libigl"]
+	path = src/libigl
+	url = https://github.com/libigl/libigl.git
+[submodule "src/pybind11"]
+	path = src/pybind11
+	url = https://github.com/pybind/pybind11.git
+	branch = master
+[submodule "src/libgsf"]
+	path = src/libgsf
+	url = https://github.com/nilsbore/libgsf.git
+[submodule "src/cxxopts"]
+	path = src/cxxopts
+	url = https://github.com/jarro2783/cxxopts.git
+[submodule "src/cereal"]
+	path = src/cereal
+	url = https://github.com/USCiLab/cereal.git

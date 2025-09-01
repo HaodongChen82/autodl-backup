@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<launch>
+    <!-- If mode = sim: Simulated AUV with MBES and control in loaded bathymetric map 
+	If mode = gt: reproduce Hugin survey and construct map of real bathymetry --> 
+    <arg name="mode" default="sim"/>
+	<arg name="namespace" default="hugin"/>
+	<arg name="dataset" default="ripples"/>
+    <arg name="app" default="basic"/>
+    <arg name="debug" default="0"/>
+    <arg name="multi_agent" default="false"/>
+
+	<!-- Rates for simulating missions  -->
+    <arg name="odom_rate" default="0.1"/>
+	<arg name="mbes_rate" default="0.1"/>
+	<arg name="sss_rate" default="0.1"/>
+	
+	<!-- MBES sensor -->
+	<arg name="n_beams_mbes" default="100"/>	
+	<arg name="mbes_open_angle" default="1.0" />
+
+    <!-- SSS sensor -->
+	<arg name="n_beams_sss" default="100"/>	
+	<arg name="sss_open_angle" default="1.0" />
+
+    <!-- Real data  -->
+    <arg name="path" default="$(find uw_tests)/datasets/$(arg dataset)/"/>
+	<!-- Coordinates of odom frame wrt the map frame. By default, the AUV start the mission here -->
+	<arg name="x" default="0.0"/>
+	<arg name="y" default="0.0"/>
+	<arg name="z" default="0.0"/>
+	<arg name="roll" default="0.0"/>
+	<arg name="pitch" default="0.0"/>
+	<arg name="yaw" default="0.0"/>
+
+	<!-- <group ns="$(arg namespace)"> -->
+
+    <!-- Hugin model -->
+    <param name="robot_description" command="$(find xacro)/xacro '$(find hugin_description)/robots/hugin_auv_default.urdf.xacro' debug:=$(arg debug) namespace:=$(arg namespace)" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen">
+    </node>
+
+    <node pkg="tf" type="static_transform_publisher" name="tf_map_odom_pub" 
+            args="$(arg x) $(arg y) $(arg z) $(arg yaw) $(arg pitch) $(arg roll) map $(arg namespace)/odom 50" />
+
+    <node pkg="auv_model" type="auv_motion_model" name="auv_motion_model" output="screen">
+        <param name="odom_rate" value="$(arg odom_rate)" />
+        <param name="mbes_rate" value="$(arg mbes_rate)" />
+        <param name="sss_rate" value="$(arg sss_rate)" />
+        <param name="odom_sim" value="/$(arg namespace)/$(arg mode)/odom" />
+        <param name="world_frame" value="world" />
+        <param name="map_frame" value="map" />
+        <param name="odom_frame" value="$(arg namespace)/odom" />
+        <param name="base_link" value="$(arg namespace)/base_link" />
+        <param name="mbes_link" value="$(arg namespace)/mbes_link" />
+        <param name="sss_link" value="$(arg namespace)/sss_link" />
+        <param name="mbes_pings_topic" value="/$(arg namespace)/$(arg mode)/mbes_pings" />
+        <param name="sss_pings_topic" value="/$(arg namespace)/$(arg mode)/sss_pings" />
+        <param name="throttle_cmd" value="/$(arg namespace)/sim/throttle_cmd" />
+        <param name="thruster_cmd" value="/$(arg namespace)/sim/thruster_cmd" />
+        <param name="inclination_cmd" value="/$(arg namespace)/sim/inclination_cmd" />
+        <param name="mbes_sim_as" value="/$(arg namespace)/sim/mbes_server" />
+        <param name="sss_sim_as" value="/$(arg namespace)/sim/sss_server" />
+        <param name="n_beams_mbes" value="$(arg n_beams_mbes)" />
+        <param name="n_beams_sss" value="$(arg n_beams_sss)" />
+        <param name="synch_topic" value="/$(arg app)/synch" />
+    </node>
+
+    <!-- Python version -->
+    <node pkg="auv_model" type="auv_payload.py" name="auv_payload" output="screen">
+        <param name="mbes_open_angle" value="$(arg mbes_open_angle)" />
+        <param name="sss_open_angle" value="$(arg sss_open_angle)" />
+        <param name="mbes_link" value="$(arg namespace)/mbes_link" />
+        <param name="sss_link" value="$(arg namespace)/sss_link" />
+        <param name="mbes_sim_as" value="/$(arg namespace)/sim/mbes_server" /> 
+        <param name="sss_sim_as" value="/$(arg namespace)/sim/sss_server" /> 
+        <param name="server_mode" value="True" if="$(eval mode == 'sim')"/>    
+        <param name="server_mode" value="False" unless="$(eval mode == 'sim')"/> 
+        <param name="sound_velocity_prof" value="$(arg path)/svp.cereal" />       
+        <param name="mesh_path" value="$(arg path)/mesh.npz" />       
+    </node>
+
+    <!-- cpp version -->
+    <!-- <node pkg="auv_model" type="auv_payload_cpp" name="auv_payload" output="screen">
+        <param name="sss_sim_as" value="/$(arg namespace)/sim/sss_server" /> 
+        <param name="server_mode" value="True" if="$(eval mode == 'sim')"/>    
+        <param name="server_mode" value="False" unless="$(eval mode == 'sim')"/> 
+        <param name="mesh_resources" value="$(arg path)" />       
+    </node> -->
+
+    <group if="$(eval app == 'basic')">
+        <node pkg="auv_model" type="auv_multi.py" name="fake_synch_srv" output="screen">
+            <param name="synch_topic" value="/$(arg app)/synch" />
+        </node>
+    </group>
+
+    <!-- Useful rosbags for replaying controls -->
+    <!-- <node pkg="rosbag" type="play" name="controls" 
+            args="$(find uw_tests)/slam/$(arg dataset)/big_loop.bag"/> -->
+    
+    <!-- <node pkg="rosbag" type="record" name="record_mission_ctrl" output="screen" 
+            args="-O $(find rbpf_slam)/launch/lc_test.bag /hugin/throttle_cmd /hugin/thruster_cmd /hugin/inclination_cmd"/> -->
+<!-- </group> -->
+
+</launch>

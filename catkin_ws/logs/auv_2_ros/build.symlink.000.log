@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/auv_2_ros.pc
+Symlinking /root/catkin_ws/devel/lib/auv_2_ros/auv_2_ros
+Symlinking /root/catkin_ws/devel/share/auv_2_ros/cmake/auv_2_rosConfig.cmake
+Symlinking /root/catkin_ws/devel/share/auv_2_ros/cmake/auv_2_rosConfig-version.cmake

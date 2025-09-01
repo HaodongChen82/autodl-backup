@@ -1,0 +1,6 @@
+/usr/bin/ld: /root/auvlib/install/lib/libmesh_map.a(mesh_map.cpp.o): undefined reference to symbol 'glfwSetWindowSizeCallback'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libglfw.so.3: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/sss_pf_localization_node.dir/build.make:532: /root/catkin_ws/devel/.private/sss_particle_filter/lib/sss_particle_filter/sss_pf_localization_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2801: CMakeFiles/sss_pf_localization_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

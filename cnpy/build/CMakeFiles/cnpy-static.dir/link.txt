@@ -1,0 +1,2 @@
+/usr/bin/ar qc /root/catkin_ws/devel/lib/libcnpy.a "CMakeFiles/cnpy-static.dir/cnpy.cpp.o"
+/usr/bin/ranlib /root/catkin_ws/devel/lib/libcnpy.a

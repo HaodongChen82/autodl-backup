@@ -1,0 +1,6 @@
+[ 18%] Built target cnpy-static
+[ 36%] Built target cnpy
+[ 54%] Built target example1
+make[2]: *** No rule to make target '/root/auvlib/install/lib/libembree3.a', needed by '/root/catkin_ws/devel/.private/sss_particle_filter/lib/sss_particle_filter/sss_pf_localization_node'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:2801: CMakeFiles/sss_pf_localization_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

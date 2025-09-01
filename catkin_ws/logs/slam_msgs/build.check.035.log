@@ -1,0 +1,1 @@
+/usr/local/bin/cmake -S/root/catkin_ws/src/UWExploration/slam/slam_msgs -B/root/catkin_ws/build/slam_msgs --check-build-system CMakeFiles/Makefile.cmake 0

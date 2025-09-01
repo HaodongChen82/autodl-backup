@@ -1,0 +1,4 @@
+UWExploration/real_auv/lolo_description
+/root/catkin_ws/devel/.private/lolo_description/lib/pkgconfig/lolo_description.pc /root/catkin_ws/devel/lib/pkgconfig/lolo_description.pc
+/root/catkin_ws/devel/.private/lolo_description/share/lolo_description/cmake/lolo_descriptionConfig-version.cmake /root/catkin_ws/devel/share/lolo_description/cmake/lolo_descriptionConfig-version.cmake
+/root/catkin_ws/devel/.private/lolo_description/share/lolo_description/cmake/lolo_descriptionConfig.cmake /root/catkin_ws/devel/share/lolo_description/cmake/lolo_descriptionConfig.cmake

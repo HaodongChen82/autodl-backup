@@ -1,0 +1,6 @@
+/usr/bin/ld: /root/catkin_ws/devel/.private/auv_model/lib/auv_model/auv_payload_cpp: hidden symbol `rtcSetSceneBuildQuality' in /usr/local/lib/libembree4.a(rtcore.cpp.o) is referenced by DSO
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/auv_payload_cpp.dir/build.make:288: /root/catkin_ws/devel/.private/auv_model/lib/auv_model/auv_payload_cpp] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2435: CMakeFiles/auv_payload_cpp.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: auv_particle_filter
+Description: Description of auv_particle_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

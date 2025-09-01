@@ -1,0 +1,6 @@
+Not searching for unused variables given on the command line.
+[31mCMake Error at CMakeLists.txt:168:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+[0m
+[36m--[0m Configuring incomplete, errors occurred!

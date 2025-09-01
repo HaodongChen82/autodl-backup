@@ -1,0 +1,6 @@
+/usr/bin/ld: /usr/local/lib/libcnpy.a(cnpy.cpp.o): relocation R_X86_64_PC32 against symbol `_ZTIf@@CXXABI_1.3' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/sss_payload.dir/build.make:123: /root/catkin_ws/devel/.private/auv_model/lib/libsss_payload.so] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2284: CMakeFiles/sss_payload.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

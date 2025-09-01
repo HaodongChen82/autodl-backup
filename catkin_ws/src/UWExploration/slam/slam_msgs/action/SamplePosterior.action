@@ -1,0 +1,14 @@
+#goal definition
+int32 n
+float64  xmin
+float64  xmax
+float64  ymin
+float64  ymax
+int32 subdivs
+---
+#result definition
+sensor_msgs/PointCloud2 posterior
+---
+#feedback (not used)
+# std_msgs/bool feedback
+
